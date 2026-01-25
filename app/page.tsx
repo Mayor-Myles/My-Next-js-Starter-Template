@@ -153,7 +153,7 @@ export default function BakeryHome() {
           </Button>
         </Container>
       </Box>
-<ContacUs />
+<ContactUs />
     </Box>
   );
 }
