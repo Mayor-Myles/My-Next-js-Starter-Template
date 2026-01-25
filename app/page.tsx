@@ -71,7 +71,7 @@ export default function BakeryHome() {
           </Stack>
 
           <Image
-            src="/hero-bread.jpg"
+            src="https://magazinebbm.com/assets/img/uploads/en-US/2021/08/getlstd-property-photo-e1628019950204.jpg"
             rounded="2xl"
             w="full"
             maxW="420px"
