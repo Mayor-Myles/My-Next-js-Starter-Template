@@ -1,6 +1,6 @@
 'use client';
 
-"use client";
+
 
 import {
   Box,
@@ -17,11 +17,24 @@ import {
   useColorModeValue,
   Badge,
 } from "@chakra-ui/react";
-
+import Navbar from "@/components/navbar";
+import ContactUs from "@/components/contactUs";
 const products = [
-  { name: "Sourdough Bread", price: 2500, img: "/bread1.jpg" },
-  { name: "Butter Croissant", price: 1800, img: "/bread2.jpg" },
-  { name: "Chocolate Muffin", price: 1500, img: "/bread3.jpg" },
+  {
+    name: "Sourdough Bread",
+    price: 2500,
+    img: "https://images.unsplash.com/photo-1549931319-a545dcf3bc73",
+  },
+  {
+    name: "Butter Croissant",
+    price: 1800,
+    img: "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+  },
+  {
+    name: "Chocolate Muffin",
+    price: 1500,
+    img: "https://images.unsplash.com/photo-1608198093002-ad4e005484ec",
+  },
 ];
 
 export default function BakeryHome() {
@@ -32,7 +45,7 @@ export default function BakeryHome() {
 
   return (
     <Box bg={bg} minH="100vh">
-
+<Navbar />
       {/* HERO */}
       <Container maxW="7xl" py={{ base: 16, md: 24 }}>
         <Flex
@@ -140,7 +153,7 @@ export default function BakeryHome() {
           </Button>
         </Container>
       </Box>
-
+<ContacUs />
     </Box>
   );
 }
